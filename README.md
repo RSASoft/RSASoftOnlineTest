@@ -1,6 +1,6 @@
 # RSASoftOnlineTest
  
-This is a test solution to ask user for a small online test.
+This is a test for a developer candidate.
 
 ### Testing Instructions (Instructions not in chronological order)
 1. Get all Test Cases to Pass.
