@@ -15,5 +15,10 @@ namespace RSASoftOnline
         public float Total { get; set; }
         public int NumberOfLines { get; set; }
         public List<OrderLineDetails> LineDetails { get; set; }
+
+        public int GetNumberLines()
+        {
+            return LineDetails.Count;
+        }
     }
 }

@@ -11,7 +11,12 @@ namespace RSASoftOnline
         public string StockCode { get; set; }
         public string StockDescription { get; set; }
         public int Quantity { get; set; }
-        public float CustomerPrice { get; set; }
-        public float Total { get; set; }
+        public double CustomerPrice { get; set; }
+        public double Total { get; set; }
+
+        public double GetTotal(int Quantity, double CustomerPrice)
+        {
+            return Quantity * CustomerPrice;
+        }
     }
 }
