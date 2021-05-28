@@ -22,7 +22,7 @@ This is a test solution to ask user for a small online test.
 6. Create a method in Header to Validate All Lines
 	* Validate the StockCode is not Empty or Null
 	* Validate the Quantity > 0
-	* Validate the StockCode is not Empty or Null
+	* Validate the StockDescription is not Empty or Null
 	* Validate Price > 0.00 and < 15.54
 	* Validate Total is = Quantity * CustomerPrice
 7. Create a method in Order to Validate All Headers
